@@ -93,3 +93,44 @@ creating directories and files within said directories
 updating inventory/dev.yml file with host information
 
 ![](images/ansibledevyml13.png)
+
+populating playbooks/common.yml file with ansible scripts that'll trigger the necessary tasks to be completed
+
+![](images/ansibleplaybook14.png)
+
+## updating git with the latest code
+
+`$ git status`
+
+`$ git add .`
+
+`$ git commit -m "commit message"`
+
+`$ git push origin prj-11`
+
+`$ ls /var/lib/jenkins/jobs/ansible/builds/build-number/archive`
+
+checkout to the main branch
+
+`$ git pull`
+
+`$ git merge prj-11`
+
+![](images/ansiblefirstgit15.png)
+
+![](images/ansiblefirstgit155.png)
+
+![](images/ansiblefirstgit1555.png)
+
+![](images/ansiblejenkins5.png)
+
+![](images/ansiblejenkins55.png)
+
+![](images/ansiblejenkinsbuild15555.png)
+
+![](images/ansiblejenkinsbuild155555.png)
+
+![](images/ansiblejenkinsbuild1555555.png)
+
+![](images/ansiblegitpull16.png)
+
