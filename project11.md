@@ -134,3 +134,34 @@ checkout to the main branch
 
 ![](images/ansiblegitpull16.png)
 
+## running ansible test
+
+using remote-ssh plugin on vsc to setup ssh config
+
+![](images/ansiblesshconfig17.png)
+
+`$ cd ansible-config-mgt`
+
+`$ ansible-playbook -i inventory/dev.yml playbooks/common.yml`
+
+![](images/ansibleplaybooktest17.png)
+
+checking each server to confirm that wireshark is installed
+
+`$ which wireshark`
+
+`$ wireshark --version`
+
+![](images/ansibledbwireshark18.png)
+
+![](images/ansiblelbwireshark18.png)
+
+![](images/ansiblewsswireshark18.png)
+
+![](images/ansiblenfswireshark18.png)
+
+![](images/ansiblewswireshark18.png)
+
+updated ansible architecture now looks like this:
+
+![](images/setupfinal.png)
