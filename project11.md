@@ -76,3 +76,20 @@ creating directories and files within said directories
 
 ![](images/ansibleinventoryprod10.png)
 
+## configuring ssh agent 
+
+`$ eval `ssh-agent -s` `
+
+`$ ssh-add <path-to-private-key>`
+
+`$ ssh-add -l`
+
+`$ ssh -A <public-ip-address>`
+
+![](images/ansiblesshevalubuntu11.png)
+
+![](images/ansiblesshtest12.png)
+
+updating inventory/dev.yml file with host information
+
+![](images/ansibledevyml13.png)
