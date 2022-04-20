@@ -49,3 +49,30 @@ confirming jenkins saves the file in remote folder
 setup should look like this now:
 
 ![](images/setup.png)
+
+## preparing dev env in vsc
+
+cloning git repo
+
+`$ git clone <ansible-config-mgt repo link>`
+
+creating new github branch, prj-11, for development 
+
+creating directories and files within said directories
+
+`$ mkdir playbooks`
+
+`$ cd playbooks`
+
+`$ echo "" >> common.yml`
+
+`$ mkdir inventory`
+
+`$ cd inventory`
+
+`$ echo "" >> dev.yml staging.yml uat.yml prod.yml`
+
+![](images/ansibleprjbranchcommon9.png)
+
+![](images/ansibleinventoryprod10.png)
+
